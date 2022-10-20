@@ -118,7 +118,7 @@ expirationDateMasked.on("accept", () => {
 })
 
 function updateExpirationDate(date) {
-  const expirationDateNumber = document.querySelector(".cc-extragit init  .value")
+  const expirationDateNumber = document.querySelector(".cc-extra  .value")
   
   expirationDateNumber.innerHTML = date.length === 0 ? "02/32" : date
 }
